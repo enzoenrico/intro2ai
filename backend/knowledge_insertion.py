@@ -71,6 +71,8 @@ def sim_search(question: str):
     # just return the anwser
 
     response = rag_chain.invoke(question)
+    print(response)
+
     return response
     # print(response)
 
